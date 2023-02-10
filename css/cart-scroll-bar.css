@@ -3,12 +3,12 @@
 }
 
 .cart-content__list::-webkit-scrollbar {
-    width : 6px;
+    width : 5px;
     height: auto;
 }
 
 .cart-content__list::-webkit-scrollbar-thumb {
-    background: #0080ff;
+    background: #00ffe1;
     border    : 0px none #ffffff;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #bdbbbb), color-stop(1.00, #777));
     background: -webkit-linear-gradient(#bdbbbb, #777);
@@ -28,7 +28,7 @@
 }
 
 .cart-content__list::-webkit-scrollbar-thumb:active {
-    background: #111;
+    background: rgb(156, 74, 74);
 }
 
 .cart-content__list::-webkit-scrollbar-track {
